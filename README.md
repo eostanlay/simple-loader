@@ -4,7 +4,7 @@
 • KeyAuth.
 <br>
 • ManualMap Injection (credits to: https://github.com/WilsonPublic/SimpleLoader).
-### To-Do
+## To-Do
 • Auto close steam and re-open it + automatically open game.
 <br>
 • Select game and inject different dll for each game.
