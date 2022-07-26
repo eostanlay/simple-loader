@@ -7,4 +7,4 @@
 ### To-Do
 • Auto close steam and re-open it + automatically open game.
 <br>
-• Select game and inject different Dll for each game.
+• Select game and inject different dll for each game.
