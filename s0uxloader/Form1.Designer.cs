@@ -35,7 +35,7 @@
             this.loginbutton = new MetroFramework.Controls.MetroButton();
             this.password = new MetroFramework.Controls.MetroTextBox();
             this.registerbutton = new MetroFramework.Controls.MetroButton();
-            this.metroRadioButton1 = new MetroFramework.Controls.MetroRadioButton();
+            this.save = new MetroFramework.Controls.MetroRadioButton();
             this.siticoneControlBox4 = new Siticone.Desktop.UI.WinForms.SiticoneControlBox();
             this.siticoneControlBox3 = new Siticone.Desktop.UI.WinForms.SiticoneControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -107,18 +107,19 @@
             this.registerbutton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.registerbutton.Click += new System.EventHandler(this.registerbutton_Click);
             // 
-            // metroRadioButton1
+            // save
             // 
-            this.metroRadioButton1.AutoSize = true;
-            this.metroRadioButton1.Location = new System.Drawing.Point(23, 151);
-            this.metroRadioButton1.Name = "metroRadioButton1";
-            this.metroRadioButton1.Size = new System.Drawing.Size(106, 15);
-            this.metroRadioButton1.Style = MetroFramework.MetroColorStyle.White;
-            this.metroRadioButton1.TabIndex = 7;
-            this.metroRadioButton1.TabStop = true;
-            this.metroRadioButton1.Text = "save credentials";
-            this.metroRadioButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroRadioButton1.UseVisualStyleBackColor = true;
+            this.save.AutoSize = true;
+            this.save.Location = new System.Drawing.Point(23, 151);
+            this.save.Name = "save";
+            this.save.Size = new System.Drawing.Size(106, 15);
+            this.save.Style = MetroFramework.MetroColorStyle.White;
+            this.save.TabIndex = 7;
+            this.save.TabStop = true;
+            this.save.Text = "save credentials";
+            this.save.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.save.UseVisualStyleBackColor = true;
+            this.save.CheckedChanged += new System.EventHandler(this.save_CheckedChanged);
             // 
             // siticoneControlBox4
             // 
@@ -154,7 +155,7 @@
             this.ClientSize = new System.Drawing.Size(240, 225);
             this.Controls.Add(this.siticoneControlBox3);
             this.Controls.Add(this.siticoneControlBox4);
-            this.Controls.Add(this.metroRadioButton1);
+            this.Controls.Add(this.save);
             this.Controls.Add(this.registerbutton);
             this.Controls.Add(this.password);
             this.Controls.Add(this.loginbutton);
@@ -186,7 +187,7 @@
         private MetroFramework.Controls.MetroButton loginbutton;
         private MetroFramework.Controls.MetroTextBox password;
         private MetroFramework.Controls.MetroButton registerbutton;
-        private MetroFramework.Controls.MetroRadioButton metroRadioButton1;
+        private MetroFramework.Controls.MetroRadioButton save;
 
         private void InitializeCompnt()
         {
