@@ -1,4 +1,4 @@
-# Simple Loader
+# Simple Loader [![](https://img.shields.io/badge/Version-1.5-blue.svg?style=plastic)]()
 • Simple loader made with MetroLoader, Siticone and KeyAuth. This project is made for studies so don't expect much.
 ## Features
 • KeyAuth.
