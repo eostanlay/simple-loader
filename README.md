@@ -12,3 +12,5 @@
 • Fix auto open steam and auto open game.
 <br>
 • Select game and inject different dll for each game.
+<br>
+• Add VAC3 inhibitor.
